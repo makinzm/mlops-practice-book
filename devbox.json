@@ -3,7 +3,9 @@
   "packages": ["awscli2@latest"],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "export AWS_PROFILE=mlops-practice",
+      "echo 'Welcome to devbox!' > /dev/null",
+      "aws sts get-caller-identity"
     ],
     "scripts": {
       "test": [
