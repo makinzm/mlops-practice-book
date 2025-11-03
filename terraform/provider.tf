@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "mlops-terraform-tfstate-makinzm"
     key    = "terraform.tfstate"
-    region = "ap-northeast-2"
+    region = "ap-southeast-2"
 
   }
   required_providers {
