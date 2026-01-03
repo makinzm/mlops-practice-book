@@ -1,6 +1,7 @@
 AWS Management Console
 
-[Console Home | Console Home | ap-southeast-2](https://ap-southeast-2.console.aws.amazon.com/console/home?nc2=h_uta_mc&region=ap-southeast-2#)
+- IAM Sourtheast2: [Console Home | Console Home | ap-southeast-2](https://ap-southeast-2.console.aws.amazon.com/console/home?nc2=h_uta_mc&region=ap-southeast-2#)
+- Glue Northest1: [AWS Glue | ap-northeast-1](https://ap-northeast-1.console.aws.amazon.com/glue/home?region=ap-northeast-1#/v2/data-catalog/databases)
 
 original README -> [original README](./original-README.md)
 
