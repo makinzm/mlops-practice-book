@@ -11,5 +11,19 @@ check previous terraform apply output:
 ```bash
 cd terraform
 terraform show
+terraform state list | grep crawler
 cd -
 ```
+
+check region:
+
+```bash
+aws configure get region
+```
+
+check crawlers:
+
+```bash
+aws glue get-crawlers --region ap-southeast-2
+```
+
